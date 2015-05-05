@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>160</x>
+      <y>110</y>
+      <w>210</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Square
+--
+-character: char
+--
++Square(character: char)
++setCharacter(character: char)
++show(size: int)
+-generate(size: int):String
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.0">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>168</x>
+      <y>0</y>
+      <w>128</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>Person
+--
+#name: String
+#age: int
+--
++Person()
++toString()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>152</y>
+      <w>208</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>Teacher
+--
+#degree: String
+#subjects: String[]
+--
++Teacher(degree:String, subject:String[])
++toString()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>232</x>
+      <y>152</y>
+      <w>216</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>Student
+--
+#course: String
+#degree: String
+--
++Student(course: String, degree: String)
++toString()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>216</x>
+      <y>80</y>
+      <w>96</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0;100.0;40.0;100.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>56</x>
+      <y>80</y>
+      <w>184</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>210.0;10.0;210.0;40.0;10.0;40.0;10.0;90.0</additional_attributes>
+  </element>
+</diagram>

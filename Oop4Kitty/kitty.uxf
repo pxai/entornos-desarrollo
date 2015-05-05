@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.0">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>128</x>
+      <y>120</y>
+      <w>168</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Food
+--
+#name: String
+#weight: float
+--
++Food(name:String,weight:float)
++toString():String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>24</x>
+      <y>304</y>
+      <w>168</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Fruit
+--
+-vitamin: String
+--
++Fruit(name:String,weight:float)
++toString():String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>232</x>
+      <y>304</y>
+      <w>168</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Candy
+--
+#calories: int
+--
++Candy(name:String,weight:float)
++toString():String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>400</x>
+      <y>128</y>
+      <w>128</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Basket
+--
+-basket: Vector&lt;Food&gt;
+--
++addFood(food: Food)
++totalWeight():float
++toString(): String
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>120</x>
+      <y>192</y>
+      <w>88</w>
+      <h>128</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>224</x>
+      <y>192</y>
+      <w>96</w>
+      <h>128</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;100.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>288</x>
+      <y>152</y>
+      <w>128</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+m2=0..N</panel_attributes>
+    <additional_attributes>140.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

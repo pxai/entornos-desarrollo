@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>80</y>
+      <w>100</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Vehicle
+--
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>340</x>
+      <y>190</y>
+      <w>100</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Car
+--
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>160</x>
+      <y>190</y>
+      <w>100</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Circuit
+--
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>160</x>
+      <y>80</y>
+      <w>100</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Race
+--
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>80</y>
+      <w>100</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Main
+--
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
