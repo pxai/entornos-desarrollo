@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_xngTIFj0EeSEBbrunbvm-Q" name="testuml">
+    <eAnnotations xmi:id="_yUMaAFj0EeSEBbrunbvm-Q" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_yUNBEFj0EeSEBbrunbvm-Q" source="codegen">
+        <details xmi:id="_yUNBEVj0EeSEBbrunbvm-Q" key="codegenDirectory" value="/testuml/src"/>
+        <details xmi:id="_yUlbkFj0EeSEBbrunbvm-Q" key="observedFolders" value="/testuml/src"/>
+      </contents>
+    </eAnnotations>
+    <profileApplication xmi:id="_yURSgFj0EeSEBbrunbvm-Q">
+      <eAnnotations xmi:id="_yUUV0Fj0EeSEBbrunbvm-Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_yUcRoFj0EeSEBbrunbvm-Q" base_Package="_xngTIFj0EeSEBbrunbvm-Q">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+</xmi:XMI>

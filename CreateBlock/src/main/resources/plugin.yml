@@ -1,0 +1,12 @@
+name: Block
+
+author: Pello Altadill
+website: http://pello.info
+main: io.pello.mc.block.CreateBlock
+
+commands:
+    hello:
+        description: Simple plugin to create a block
+        usage: /block
+
+version: 0.1

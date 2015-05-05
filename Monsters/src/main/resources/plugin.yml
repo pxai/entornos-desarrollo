@@ -1,0 +1,12 @@
+name: Monsters
+
+author: Toni
+website: http://Toni.info
+main: org.cuatrovientos.toni.minecraft.monsters.Monsters
+
+commands:
+    monsters:
+        description: Simple plugin to spawn monsters
+        usage: /monsters
+
+version: 0.1

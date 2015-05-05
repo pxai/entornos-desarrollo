@@ -1,0 +1,12 @@
+name: Greets
+
+author: Pello Altadill
+website: http://pello.info
+main: io.pello.mc.arguments.Greets
+
+commands:
+    greets:
+        description: Simple plugin to greet users with a msg and repeat value
+        usage: /greets message repeat-number
+
+version: 0.1
