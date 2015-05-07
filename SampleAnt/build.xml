@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- ejecutar: ant -->
+<!-- y por defecto llevará a cabo la acción por defecto. -->
+<project name="ant Hello World" default="ejecutar" basedir=".">
+<property name="dir.src" value="src"/>
+<property name="bin.src" value="bin"/>
+
+
+<target name="compilar" description="Compilar todo">
+<javac srcdir="${dir.src}" destdir="${bin.src}"/>
+</target>
+
+<target name="ejecutar" depends="compilar" description="Ejecutar">
+	<echo message="Ok, compilado, vamos a ejecutar: " />
+	<!-- ejecuta el método main dentro de la clase java -->
+	<java classname="org.cuatrovientos.hello.Hello">
+	<classpath path="${bin.src}"/>
+	</java>
+</target>
+
+</project>
